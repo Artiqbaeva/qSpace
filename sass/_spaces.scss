@@ -10,6 +10,7 @@
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(4, 1fr);
+    
   }
   &-card {
     padding: 40px 19px;
@@ -40,6 +41,37 @@
     &:hover {
       background: #fff0d2;
     }
+   
+  
+    }
+    &-card2{
+      padding: 40px 19px;
+      border-radius: 16px;
+      transition: 0.6s;
+  
+      h1,
+      p {
+        text-align: center;
+        line-height: 28px;
+      }
+      h1 {
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 400;
+      }
+      p {
+        font-size: 18px;
+        opacity: 0.6;
+        color: #000;
+        margin-bottom: 60px;
+      }
+      i {
+        margin-right: 16px;
+        color: #1254FF;
+      }
+      &:hover {
+        background: #9eb2e5;
+      }
   }
 
   &-btn {
@@ -61,6 +93,28 @@
     transition: 0.6s;
     &:hover {
       background: #ffb21e;
+      color: #fff;
+    }
+  }
+  &-btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: Hug (192px) px;
+    height: Hug (58px) px;
+    top: 535px;
+    left: 39px;
+    padding: 16px 24px;
+    gap: 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    background: #fff;
+    font-weight: 400;
+    color: #1254FF;
+    border: 1px solid #1254FF;
+    transition: 0.6s;
+    &:hover {
+      background: #1254FF;
       color: #fff;
     }
   }
