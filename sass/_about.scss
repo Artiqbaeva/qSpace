@@ -1,0 +1,46 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  &-text {
+    margin-top: 100px;
+    img {
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 64px;
+      font-weight: 400;
+    }
+    p {
+      font-size: 20px;
+      opacity: 0.6;
+      margin-bottom: 18px;
+    }
+    span {
+      color: black;
+      transition: 0.6s;
+      font-size: 24px;
+      &:hover {
+        color: #1254ff;
+      }
+    }
+  }
+ 
+}
+
+@media (max-width:960px) {
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    &-img img{
+        width: 360px;
+        height: 400px;
+        
+    }
+    h1 {
+        font-size: 44px;
+        font-weight: 400;
+      }
+  }
+
+}
+
